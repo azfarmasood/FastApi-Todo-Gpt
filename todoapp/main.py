@@ -37,7 +37,7 @@ async def lifespan(app: FastAPI)-> AsyncGenerator[None, None]:
     yield
     
 ngrok_urls:list[str] = [
-    "https://todoforcustomgpt-ld3ixdux.b4a.run",
+    "https://fastapi-todo-gpt-production.up.railway.app/",
     "https://todo-gpt-production.up.railway.app/",
 ]
 
